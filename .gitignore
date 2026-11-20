@@ -1,0 +1,45 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+temp_doctamper_env/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.safetensors
+
+# Generated outputs
+outputs/
+results/
+runs/
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary experiments and downloaded model sources
+temp_doctamper_source/
+temp_doctamper_test/
+mantra_controlled_test/
+
+# Local virtual environments and caches
+.cache/

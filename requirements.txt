@@ -1,0 +1,27 @@
+# ==============================================================================
+# Document Integrity Verification & Tampering Localization
+# Project Dependencies (Lightweight, CPU & Windows Friendly)
+# ==============================================================================
+
+# 1. Interactive Web Application Framework
+streamlit>=1.30.0
+
+# 2. Image Processing & Computer Vision (ELA, Noise, Filtering)
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+matplotlib>=3.7.0
+
+# 3. Optical Character Recognition (OCR)
+# EasyOCR runs in pure Python + PyTorch and works out of the box on Windows
+easyocr>=1.7.0
+
+# 4. Deep Learning Framework (Inference on standard laptop CPU)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 5. Report Generation & Data Handling
+fpdf2>=2.7.0
+pandas>=2.0.0
+
